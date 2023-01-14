@@ -1,5 +1,5 @@
 import { extendTheme, withDefaultColorScheme } from "@chakra-ui/react";
-import dtoken from './design-tokens.json';
+import dtoken from "./design-tokens.json";
 
 export const theme = extendTheme(
   { colors: tokenToColor() },
